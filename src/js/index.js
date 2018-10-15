@@ -52,7 +52,7 @@ const Gotchi = class {
     if (this.locked)
       return;
 
-    this.action[this.item].run();
+    this.action[this.item]();
   }
 
   // Lock/Unlock

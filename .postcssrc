@@ -2,9 +2,11 @@
   "plugins": {
     "postcss-easy-import": {
       "prefix": "_",
-      "extensions": [".pcss", ".css"]
-    },    
-    "postcss-mixins": true,
+      "extensions": [
+        ".pcss",
+        ".css"
+      ]
+    },
     "postcss-preset-env": {
       "stage": 3,
       "features": {
@@ -15,7 +17,6 @@
       }
     },
     "postcss-font-magician": true,
-    "autoprefixer": true,
-    "postcss-clean": true
+    "autoprefixer": true
   }
 }
